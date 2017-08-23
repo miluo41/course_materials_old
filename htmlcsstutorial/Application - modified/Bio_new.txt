@@ -1,0 +1,10 @@
+Luo Mi is a Postdoc Research Fellow in UCLA working for Professor James C. Liao. His current research projects focus on renewable energy production using synthetic biology approaches, as well as applying predicative models to explore new routes in metabolic screening. Prior to his relocation to California in June 2014, Luo was a pround member of University of Washington (Seattle) ChemE Department for six years under the guidance of Professor Shaoyi Jiang. Luo received top departmental honor (2013) for his PhD research on design and synthesis of biomaterials/antimicrobial agents aided by quantum chemistry calculation and molecular dynamic simulation.
+
+To find out more about his work, you can check out:
+1. The research page of this site
+2. Google scholar page (9 first/cofirst author papers with 670 total citations 05/2017)
+3. His faculty candidate presentation at Arizona State University
+
+Luo is an avid learner in data science and everything statistics, which is his own way of being an arm-chair detective and internet sleuth. He is fluent in R (sample code), and with working knowledge in python (sample code), HTML5 and CSS3.
+
+Outside Luo's academic endeavors, his favourite things in life include: playing squash with friends; watching detective movies with his wife and reading Jeanette Winterson novels on a Seattle rainy day afternoon while having TV-series Frasier playing in the background.

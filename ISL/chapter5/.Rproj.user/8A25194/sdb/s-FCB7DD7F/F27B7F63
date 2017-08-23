@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# library(ISLR)\n# dim(Auto)\n# set.seed(1)\n# in_train<-sample(392,196)\n# lm.fit<-lm(mpg ~ poly(horsepower,1),data=Auto,subset=in_train)\n# lm.pred<-predict(lm.fit,Auto[-in_train,])\n# MSE.lm<-mean((Auto[-in_train,]$mpg-lm.pred)^2)\n# \n# in_train<-sample(392,196)\n# lm.fit2<-lm(mpg ~ poly(horsepower,2),data=Auto,subset=in_train)\n# lm.pred2<-predict(lm.fit2,Auto[-in_train,])\n# MSE.lm2<-mean((Auto[-in_train,]$mpg-lm.pred2)^2)\n# \n# c(MSE.lm,MSE.lm2)\n# \n# set.seed(2)\n# in_train<-sample(392,196)\n# lm.fit_new<-lm(mpg ~ poly(horsepower,2),data=Auto,subset=in_train)\n# lm.pred_new<-predict(lm.fit_new,Auto[-in_train,])\n# MSE_new<-mean((Auto[-in_train,]$mpg-lm.pred_new)^2)\n# library(boot)\n# cv.err<-NULL\n# for (i in 1:10){\n#         glm.fit<-glm(mpg ~ poly(horsepower,i),data=Auto)\n#         cv.err[i]<-cv.glm(Auto,glm.fit,K=10)$delta[1]\n# }\n\n# alpha.fn<-function(data,index){\n#         X<-data$X[index]\n#         Y<-data$Y[index]\n#         return((var(Y)-cov(X,Y))/(var(X)+var(Y)-2*cov(X,Y)))\n# }\n# boot(Portfolio,alpha.fn,R=1000)\n\n# boot.fn<-function(data,index){\n#         return(coef(lm(mpg ~ horsepower,data=Auto,subset=index)))\n# }\n# boot(Auto,boot.fn,R=1000)",
+    "created" : 1492550548532.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3501648084",
+    "id" : "F27B7F63",
+    "lastKnownWriteTime" : 1492556242,
+    "last_content_update" : 1492556242608,
+    "path" : "~/ISL/chapter5/scratchpaper.R",
+    "project_path" : "scratchpaper.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

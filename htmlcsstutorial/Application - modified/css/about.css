@@ -1,0 +1,227 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	background-color: #F5F5F5;
+	padding:4px;
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:0%;
+	width:75%;
+}
+
+p{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 130%;
+	text-align: justify;
+	line-height: 140%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+header{
+	height:145px;
+	max-width: 1100px;
+	border-bottom: solid 1px #CCCCCC;
+	padding:4px;
+	margin-left:4%;
+	margin-right: 0%
+	margin-top:0%;
+}
+
+header:before{
+	content:'';
+	background-image: url(../images/UCLA.jpg);
+	background-repeat: no-repeat;
+	width:72%;
+	height:95px;
+	padding-top: 10px;
+	position:absolute;
+	z-index: -1;
+	opacity: 0.6;
+	-webkit-filter: grayscale(50%);
+	-moz-filter: grayscale(50%);
+	-o-filter: grayscale(50%);
+	-ms-filter: grayscale(50%);
+	filter: grayscale(50%);
+	-webkit-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius: 4px;
+}
+header h1{
+	font-family: "Palatino Linotype","Times New Roman",georgia;
+	font-weight: normal;
+	font-size: 250%;
+	color:#F5F5F5;
+	text-align: left;
+	margin-left: 5%;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.primary_manu{
+	display:inline-block;
+	text-align: center;
+	margin-top: 15px;
+	float:left;
+	width:25%;
+	background-color: #F5F5F5;
+	text-decoration: none;
+	font-size:110%;
+	color: #000000;
+	font-family: Helvetica,Georgia,Serif;
+	text-align: center;
+}
+li{
+	float: right;
+	margin-right: 20%;
+	margin-top: 2%;
+	background-color: rgba(255,255,255,0.3);
+	text-decoration: none;
+	font-size:110%;
+	color: #000000;
+	font-family: Helvetica,Georgia,Serif;
+	/*border-style: solid;*/
+	text-align: center;
+	list-style-type: none;
+}
+header a:hover{
+	opacity:0.6;
+}
+
+aside{
+	
+	width:20%;
+	float:right;
+	text-align: center;
+	/*padding-left: 20px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 5px;
+	/*border-style: solid;*/
+}
+aside img{
+	margin-top: 20%;
+	width:80%;
+}
+aside p{
+	text-align: center;
+	font-style: italic;
+	font-size: 90%;
+}
+
+#sidebar_name{
+	font-family:"Times New Roman",georgia;
+	font-style: normal;
+	font-size: 130%;
+	/*border-style: solid;*/
+	margin-bottom: 20px;
+}
+#about{
+	/*border-style: solid;*/
+	padding-top:5%;
+	padding-left:10%;
+	padding-right: 5%;
+	margin-right: 25%;
+	border-right: solid 1px #CCCCCC;
+}
+#about a:link{
+	text-decoration: none;
+	color:#3366cc;
+}
+
+#about a:visited{
+	text-decoration: none;
+}
+#about p{
+	margin:0;
+	margin-bottom: 8px;
+	padding:0;
+}
+
+#biofuel {
+	float:left;
+	width: 60%;
+	margin-left: 5%;
+	padding-top:5%;
+	padding-right: 5%;
+	display: inline-block;
+	border-right: 1px solid #CCCCCC;
+	padding-left: 5%;
+}
+#biofuel img{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#biofuel figcaption{
+	font-family: "Palatino Linotype","Times New Roman",georgia;
+	font-size: 13.5px;
+}
+
+#biomaterials{
+	float:left;
+	width: 60%;
+	margin-left: 5%;
+	padding-top:5%;
+	padding-right: 5%;
+	display: inline-block;
+	border-right: 1px solid #CCCCCC;
+	padding-left: 5%;
+}
+
+#biomaterials img{
+	width: 70%;
+	margin-left: 10%;
+}
+
+
+#biomaterials figcaption{
+	font-family: "Palatino Linotype","Times New Roman",georgia;
+	font-size: 13.5px;
+}
+
+#antimicrobial{
+	float:left;
+	width: 60%;
+	margin-left: 5%;
+	padding-top:5%;
+	padding-right: 5%;
+	display: inline-block;
+	border-right: 1px solid #CCCCCC;
+	padding-left: 5%;
+}
+
+#antimicrobial img{
+	width: 70%;
+	margin-left: 10%;
+}
+
+
+#antimicrobial figcaption{
+	font-family: "Palatino Linotype","Times New Roman",georgia;
+	font-size: 13.5px;
+}
+
+
+section h2{
+	color: #3b799f;
+	font-size: 25px;
+}
+.journal{
+	font-style: italic;
+}
+.volume{
+	font-weight: bold;
+}
+.my_name{
+	font-weight: bold;
+}

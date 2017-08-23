@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(ISLR)\n# 1\n# set.seed(1)\n# in_train<-sample(10000,5000)\n# default.train<-Default[in_train,]\n# default.test<-Default[-in_train,]\n# \n# glm.fit<-glm(default ~ balance + income +student, data=default.train, family=binomial)\n# glm.prob<-predict(glm.fit,default.test,type='response')\n# glm.pred<-rep('No',nrow(default.train))\n# glm.pred[glm.prob>0.5]<-'Yes'\n# mean(glm.pred==default.test$default)\n# #2\n# library(boot)\n# glm.fit<-glm(default ~ income + balance, data=Default, family=binomial)\n# boot.fn<-function(data,index){\n#         glm.mod<-glm(default ~ income + balance, data, family=binomial,subset=index)\n#         return(coef(glm.mod))        \n# }\n# \n# boot(Default,boot.fn,R=100)\n\n# #3\n# \n# set.seed(1)\n# y<-rnorm(100)\n# x<-rnorm(100)\n# y<-x-2*x^2+rnorm(100)\n# df<-data.frame(x,y)\n# cv.err<-NULL\n# for (i in 1:4){\n#         glm.fit<-glm(y~poly(x,i),data=df)\n#         cv.err[i]<-cv.glm(df,glm.fit)$delta[1]\n# }\n\n#4\n# library(MASS)\n# boot.fn1<-function(data,index){\n#         return(mean(data$medv[index]))\n# }\n# boot(Boston,boot.fn1,R=1000)\n# \n# boot.fn2<-function(data,index){\n#         return(median(data$medv[index]))\n# }\n# boot(Boston,boot.fn2,R=1000)\n# \n# boot.fn3<-function(data,index){\n#         return(quantile(data$medv[index],probs=0.9))\n# }\n# boot(Boston,boot.fn3,R=1000)",
+    "created" : 1492557223528.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1936897135",
+    "id" : "1C12039B",
+    "lastKnownWriteTime" : 1492561347,
+    "last_content_update" : 1492561347797,
+    "path" : "~/ISL/chapter5/chapter5.R",
+    "project_path" : "chapter5.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

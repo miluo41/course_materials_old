@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1492396532990.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C1634AB3",
+    "lastKnownWriteTime" : 1492396539,
+    "last_content_update" : 1492396539101,
+    "path" : "~/ISL/Chapter3/scratch.R",
+    "project_path" : "scratch.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

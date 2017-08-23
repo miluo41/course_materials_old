@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "head(Weekly)",
+    "created" : 1492486666795.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2668464542",
+    "id" : "ACF3BF4F",
+    "lastKnownWriteTime" : 1492486690,
+    "last_content_update" : 1492486690858,
+    "path" : "~/ISL/chapter4/scratchpaper.R",
+    "project_path" : "scratchpaper.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
